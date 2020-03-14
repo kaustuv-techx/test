@@ -1,0 +1,20 @@
+h2{
+    text-align: center;
+    text-decoration: underline;
+}
+
+body{
+    border: 2px solid black;
+    margin-left: 12%;
+    margin-right: 12%;
+
+}
+
+table{
+    margin-left: 15px;
+}
+.exp{
+    background-color: gainsboro;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+}
