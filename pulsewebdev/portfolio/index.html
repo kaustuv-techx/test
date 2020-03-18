@@ -7,65 +7,76 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+   
     <!--my information-->
-    <section>
-        <table>
-            <th>
+    <!--used div( because personal details were in the same place as name and degree , used wrapper ( to align the image {took help }-->
+    <section class="wrapper">
+        <div>
+            <table>
+                <th>
+                    <tr>
+                        <h2><u>PERSONAL DETAILS</u></h2>
+                    </tr>
+                    <td>
+                        <b>Name</b>
+                    </td>
+                    <td>
+                               Kaustuv mohanty
+                    </td>
+                </th>
                 <tr>
-                    <h2><u>PERSONAL DETAILS</u></h2>
+                    <td>
+                        <b>Degree</b>
+                    </td>
+                    <td>
+                               B.Tech (Electronics and computer engineering)
+                    </td>
                 </tr>
-                <td>
-                    <b>Name</b>
-                </td>
-                <td>
-                        Kaustuv mohanty
-                </td>
-            </th>
-            <tr>
-                <td>
-                    <b>degree</b>
-                </td>
-                <td>
-                    B.Tech (Electronics and computer engineering)
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <b>contact</b>
-                </td>
-                <td>
-                    9337837362
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <b>email address</b>
-                </td>
-                <td>
-                    kaustuv.mohanty2911@gmail.com
-                </td>
-            </tr>
-        </table>
-
+                <tr>
+                    <td>
+                        <b>Contact</b>
+                    </td>
+                    <td>
+                                9337837362
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <b>Email address</b>
+                    </td>
+                    <td>
+                                kaustuv.mohanty2911@gmail.com
+                    </td>
+                    
+                </tr>
+            </table>
+        </div>
+        <!--used section in here to place the image as rounded and used text align in css-->
+             <section class="edit1">
+                    <img class="img-me" src="IMG_20200318_190020.jpg" alt="my">
+            
+             </section>
     </section>
     <!--section ends here-->
     <hr>
+    
 
     <!--education starts here-->
-    <section>
+    <section class="educ">
+        <h2>EDUCATION</h2>
         <h3>SRM INSTITUTE OF SCIENCE AND TECHNOLOGY</h3>
-        <ul><li>btech : electronics and computer enginering</li>
-        <li>cgpa-9</li>
-        <li>june2019-june2023</li>
-        <li>kattankulatur,chennai</li></ul>
+        <ul><li>Btech : Electronics and Computer Enginering</li>
+        <li>Cgpa-9</li>
+        <li>June2019-June2023</li>
+        <li>Kattankulatur,Chennai</li></ul>
         <h3>SAI INTERNATIONAL SCHOOL</h3>
-        <ul><li>june2017-june2018</li>
-        <li>cgpa-8.85</li>
-        <li>place:bhubaneswar, odisha</li></ul>
+        <ul><li>June2017-June2018</li>
+        <li>Cgpa-8.85</li>
+        <li>Bhubaneswar, Odisha</li></ul>
         <h3>DAV PUBLIC SCHOOL</h3>
-        <ul><li>may2010-june2018</li>
-        <li>cgpa:10</li>
-        <li>place-jsg,odisha</li></ul>
+        <ul><li>May2010-June2018</li>
+        <li>Cgpa:10</li>
+        <li>Jsg,Odisha</li></ul>
     </section>
     <!--section ends here-->
     <hr>
@@ -75,29 +86,29 @@
         <h2>EXPERIENCE</h2>
         <ol>
             <ul>
-                <h3>SAI TED</h3>
+                <h3><u>SAI TED</u></h3>
                 <h5>Director of technology</h5>
                 <li>march2018-december2018</li>
                 <h5>Director of photography</h5>
                 <li>march2018-december2018</li>
             </ul>
             <ul>
-                <h3>SCHOOL CLUBS</h3>
+                <h3><u>SCHOOL CLUBS</u></h3>
                 <h5>head of astronomy dept</h5>
                 <li>june2017-june2018</li>
             </ul>
             <ul>
-                <h3>UNSCHOOL</h3>
+                <h3><u>UNSCHOOL</u></h3>
                 <h5>Unschool community influencer</h5>
                 <li>feb2020-present</li>
             </ul>
             <ul>
-                <h3>SRMKZILLA</h3>
+                <h3><u>SRMKZILLA</u></h3>
                 <h5>member of sponsorship and operations</h5>
                 <li>july2019-present</li>
             </ul>
             <ul>
-                <h3>SRM BRAIN</h3>
+                <h3><u>SRM BRAIN</u></h3>
                 <h5>web developer</h5>
                 <li>november2019-march2020</li>
             </ul>
@@ -107,7 +118,7 @@
     <hr>
 
     <!--start of skills-->
-    <section>
+    <section class="func">
         <h2>SKILLS</h2>
         <ul><li>c</li>
         <li>c++</li>
@@ -120,15 +131,16 @@
     <!--end of skills-->
     <hr>
 
-    <!--start of project-->
-    <section>
-
-    </section>
-    <!--section ends here-->
-    <hr>
-
     <!--certificates start here-->
-    <section>
+    <!--added the anchor tag by taking images to drive-->
+    <section class="cert">
+        <h2><u>CERTIFICATES</u></h2>
+        <h4>Machine learning</h4>
+        <ul><li>Google DSC</li></ul>
+        <a href="https://drive.google.com/file/d/1CRuPDsfyP9vd31qZvJ9Evc16gDVyR0KO/view?usp=sharing">ML Certificate</a>
+        <h4>Future o Web with gatsby</h4>
+        <ul><li>SRMKzilla</li></ul>
+        <a href="https://drive.google.com/file/d/14xpFN5FCGO3vJIF31y8JVDcue-uSRyQY/view?usp=sharing">Future o Web</a>
 
     </section>
 </body>
